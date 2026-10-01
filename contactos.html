@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Formulario de contacto de EnerVolt">
+
+    <title>EnerVolt | Contactos</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+
+<body>
+
+    <header class="encabezado">
+        <div class="titulo-logo">
+            <img src="img/logobat1.png"
+                 alt="Logo de EnerVolt">
+            <h1>EnerVolt</h1>
+        </div>
+        <p>
+            Baterías recargables para herramientas eléctricas
+            y vehículos eléctricos
+        </p>
+
+    </header>
+
+    <nav class="menu">
+
+        <a href="index.html">Inicio</a>
+
+        <a href="productos.html">Productos</a>
+
+        <a href="nosotros.html">Nosotros</a>
+
+        <a href="ventajas.html">Ventajas</a>
+
+        <a href="contactos.html">Contactos</a>
+
+    </nav>
+
+
+    <main>
+
+        <section class="seccion-contacto">
+            <h2>Contáctanos</h2>
+            <p class="texto-contacto">
+                ¿Necesitas una batería para tu herramienta
+                o vehículo eléctrico?
+
+                Completa el siguiente formulario y
+                nos pondremos en contacto contigo.
+
+            </p>
+
+            <form class="formulario">
+
+                <div class="campo">
+                    <label for="nombre">
+                        Nombre completo:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ingrese su nombre completo"
+                        required>
+
+                </div>
+
+                <div class="campo">
+                    <label for="correo">
+                        Correo electrónico:
+                    </label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@gmail.com"
+                        required>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="telefono">
+                        Número de teléfono:
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="Ingrese su número de teléfono">
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="producto">
+                        ¿Qué producto necesita?
+                    </label>
+
+                    <select
+                        id="producto"
+                        name="producto"
+                        required>
+
+                        <option value="">
+                            Seleccione una opción
+                        </option>
+
+                        <option value="herramientas">
+                            Batería para herramientas eléctricas
+                        </option>
+
+                        <option value="bicicleta">
+                            Batería para bicicleta eléctrica
+                        </option>
+
+                        <option value="motocicleta">
+                            Batería para motocicleta eléctrica
+                        </option>
+
+                        <option value="vehiculo">
+                            Batería para vehículo eléctrico
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="mensaje">
+                        Mensaje:
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        placeholder="Escriba aquí su consulta..."
+                        required></textarea>
+
+                </div>
+
+
+                <div class="botones-formulario">
+
+                    <button
+                        type="submit"
+                        class="boton-enviar">
+
+                        Enviar consulta
+
+                    </button>
+
+
+                    <button
+                        type="reset"
+                        class="boton-limpiar">
+
+                        Limpiar formulario
+
+                    </button>
+
+                </div>
+
+
+            </form>
+
+        </section>
+
+        <section class="informacion-contacto">
+
+            <h2>Información de contacto</h2>
+
+            <div class="datos-contacto">
+
+                <div>
+                    <h3>Ubicación</h3>
+                    <p>
+                        Santa Cruz - Bolivia
+                    </p>
+                </div>
+
+                <div>
+
+                    <h3>Atención</h3>
+
+                    <p>
+
+                        Consultas sobre baterías,
+                        capacidades y disponibilidad.
+
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h3>Redes sociales</h3>
+
+
+                    <div class="redes-sociales">
+
+                        <a href="https://www.whatsapp.com/">
+
+                            <img
+                                src="img/logo_whatsapp.png"
+                                alt="WhatsApp">
+
+                        </a>
+
+
+                        <a href="https://www.facebook.com/">
+
+                            <img
+                                src="img/icono_facebook.png"
+                                alt="Facebook">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+        <h3>EnerVolt</h3>
+
+        <p>
+            Baterías recargables para un futuro eléctrico.
+        </p>
+
+        <p>
+            Santa Cruz - Bolivia
+        </p>
+
+        <p>
+            &copy; 2026 EnerVolt.
+            Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
