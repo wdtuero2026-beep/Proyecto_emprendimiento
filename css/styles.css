@@ -458,10 +458,11 @@ footer p {
     margin: 0.3rem 0;
 }
 
-/*    diseño para  TABLET
-   769px - 1024px       */
 
-@media (max-width: 64rem) {
+
+
+
+@media (max-width: 1024px) {
     .encabezado {
         width: 94%;
         min-height: 10rem;
@@ -514,12 +515,9 @@ footer p {
     }
 }
 
-/* =========================================
-  Diseño version para MÓVIL
-   Hasta 768px
-========================================= */
 
-@media (max-width: 48rem) {
+
+@media (max-width: 768px) {
     html {
         font-size: 15px;
     }
